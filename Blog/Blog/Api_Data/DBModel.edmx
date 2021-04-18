@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MYBlogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="blog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="title" Type="nvarchar(max)" />
+          <Property Name="miniintro" Type="nvarchar(max)" />
+          <Property Name="description" Type="nvarchar(max)" />
+          <Property Name="seotitle" Type="nvarchar(max)" />
+          <Property Name="seodiscription" Type="nvarchar(max)" />
+          <Property Name="seokeywords" Type="nvarchar(max)" />
+          <Property Name="language" Type="nvarchar(max)" />
+          <Property Name="createdon" Type="datetime" />
+          <Property Name="isalive" Type="bit" />
+          <Property Name="postedby" Type="nvarchar(max)" />
+          <Property Name="photo" Type="nvarchar(max)" />
+          <Property Name="position" Type="bigint" />
+          <Property Name="seourl" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="AutoId" />
+          </Key>
+          <Property Name="AutoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar(max)" />
+          <Property Name="firstname" Type="nvarchar(max)" />
+          <Property Name="lastname" Type="nvarchar(max)" />
+          <Property Name="emailId" Type="nvarchar(max)" />
+          <Property Name="idtype" Type="nvarchar(max)" />
+          <Property Name="idnumber" Type="nvarchar(max)" />
+          <Property Name="phone_no" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar(max)" />
+          <Property Name="isblocked" Type="bit" />
+          <Property Name="website_link" Type="nvarchar(max)" />
+          <Property Name="Location" Type="nvarchar(max)" />
+          <Property Name="industry" Type="nvarchar(max)" />
+          <Property Name="established_year" Type="varchar" MaxLength="50" />
+          <Property Name="GSTN" Type="nvarchar(max)" />
+          <Property Name="total_students" Type="int" />
+          <Property Name="role" Type="int" />
+          <Property Name="type" Type="int" />
+          <Property Name="createdon" Type="datetime" />
+          <Property Name="url" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityContainer Name="MYBlogModelStoreContainer">
+          <EntitySet Name="blog" EntityType="Self.blog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MYBlogModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="blog">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="miniintro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="seotitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="seodiscription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="seokeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="language" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="createdon" Type="DateTime" Precision="3" />
+          <Property Name="isalive" Type="Boolean" />
+          <Property Name="postedby" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="position" Type="Int64" />
+          <Property Name="seourl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="AutoId" />
+          </Key>
+          <Property Name="AutoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="firstname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="lastname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="emailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="idtype" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="idnumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="phone_no" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="isblocked" Type="Boolean" />
+          <Property Name="website_link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="industry" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="established_year" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GSTN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="total_students" Type="Int32" />
+          <Property Name="role" Type="Int32" />
+          <Property Name="type" Type="Int32" />
+          <Property Name="createdon" Type="DateTime" Precision="3" />
+          <Property Name="url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="MYBlogEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="blogs" EntityType="Self.blog" />
+          <EntitySet Name="users" EntityType="Self.user" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MYBlogModelStoreContainer" CdmEntityContainer="MYBlogEntities">
+          <EntitySetMapping Name="blogs">
+            <EntityTypeMapping TypeName="MYBlogModel.blog">
+              <MappingFragment StoreEntitySet="blog">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="miniintro" ColumnName="miniintro" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="seotitle" ColumnName="seotitle" />
+                <ScalarProperty Name="seodiscription" ColumnName="seodiscription" />
+                <ScalarProperty Name="seokeywords" ColumnName="seokeywords" />
+                <ScalarProperty Name="language" ColumnName="language" />
+                <ScalarProperty Name="createdon" ColumnName="createdon" />
+                <ScalarProperty Name="isalive" ColumnName="isalive" />
+                <ScalarProperty Name="postedby" ColumnName="postedby" />
+                <ScalarProperty Name="photo" ColumnName="photo" />
+                <ScalarProperty Name="position" ColumnName="position" />
+                <ScalarProperty Name="seourl" ColumnName="seourl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="MYBlogModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="AutoId" ColumnName="AutoId" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="firstname" ColumnName="firstname" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="emailId" ColumnName="emailId" />
+                <ScalarProperty Name="idtype" ColumnName="idtype" />
+                <ScalarProperty Name="idnumber" ColumnName="idnumber" />
+                <ScalarProperty Name="phone_no" ColumnName="phone_no" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="isblocked" ColumnName="isblocked" />
+                <ScalarProperty Name="website_link" ColumnName="website_link" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="industry" ColumnName="industry" />
+                <ScalarProperty Name="established_year" ColumnName="established_year" />
+                <ScalarProperty Name="GSTN" ColumnName="GSTN" />
+                <ScalarProperty Name="total_students" ColumnName="total_students" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="createdon" ColumnName="createdon" />
+                <ScalarProperty Name="url" ColumnName="url" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

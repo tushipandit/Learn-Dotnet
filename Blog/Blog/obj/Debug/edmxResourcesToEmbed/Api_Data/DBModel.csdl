@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MYBlogModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="blog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="miniintro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="seotitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="seodiscription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="seokeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="language" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="isalive" Type="Boolean" />
+    <Property Name="postedby" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="position" Type="Int64" />
+    <Property Name="seourl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="firstname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="lastname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="idtype" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="idnumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="phone_no" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="isblocked" Type="Boolean" />
+    <Property Name="website_link" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="industry" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="established_year" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GSTN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="total_students" Type="Int32" />
+    <Property Name="role" Type="Int32" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="MYBlogEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="blogs" EntityType="Self.blog" />
+    <EntitySet Name="users" EntityType="Self.user" />
+  </EntityContainer>
+</Schema>

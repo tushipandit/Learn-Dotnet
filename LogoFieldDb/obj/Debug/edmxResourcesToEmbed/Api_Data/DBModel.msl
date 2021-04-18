@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LogoFieldDbModelStoreContainer" CdmEntityContainer="LogoFieldDbEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEOUrl" ColumnName="SEOUrl" />
+          <ScalarProperty Name="IsAlive" ColumnName="IsAlive" />
+          <ScalarProperty Name="showinmenu" ColumnName="showinmenu" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coupons">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.Coupon">
+        <MappingFragment StoreEntitySet="Coupon">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsAlive" ColumnName="IsAlive" />
+          <ScalarProperty Name="showinmenu" ColumnName="showinmenu" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEOUrl" ColumnName="SEOUrl" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="SEOTiltle" ColumnName="SEOTiltle" />
+          <ScalarProperty Name="Couponid" ColumnName="Couponid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Imagestores">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.Imagestore">
+        <MappingFragment StoreEntitySet="Imagestore">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Isalive" ColumnName="Isalive" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="photourl" ColumnName="photourl" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="SubcateogoryId" ColumnName="SubcateogoryId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="serviceId" ColumnName="serviceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEOUrl" ColumnName="SEOUrl" />
+          <ScalarProperty Name="IsAlive" ColumnName="IsAlive" />
+          <ScalarProperty Name="createon" ColumnName="createon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="skucode" ColumnName="skucode" />
+          <ScalarProperty Name="itemcode" ColumnName="itemcode" />
+          <ScalarProperty Name="brandname" ColumnName="brandname" />
+          <ScalarProperty Name="features" ColumnName="features" />
+          <ScalarProperty Name="stockstaus" ColumnName="stockstaus" />
+          <ScalarProperty Name="stockquantity" ColumnName="stockquantity" />
+          <ScalarProperty Name="minquantity" ColumnName="minquantity" />
+          <ScalarProperty Name="price_mrp" ColumnName="price_mrp" />
+          <ScalarProperty Name="price_mrp_display" ColumnName="price_mrp_display" />
+          <ScalarProperty Name="showonhome" ColumnName="showonhome" />
+          <ScalarProperty Name="tax_percentage" ColumnName="tax_percentage" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="serviceId" ColumnName="serviceId" />
+          <ScalarProperty Name="couponid" ColumnName="couponid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="services">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.service">
+        <MappingFragment StoreEntitySet="services">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEOUrl" ColumnName="SEOUrl" />
+          <ScalarProperty Name="IsAlive" ColumnName="IsAlive" />
+          <ScalarProperty Name="showinmenu" ColumnName="showinmenu" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="SubCatId" ColumnName="SubCatId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sub_Category">
+      <EntityTypeMapping TypeName="LogoFieldDbModel.Sub_Category">
+        <MappingFragment StoreEntitySet="Sub_Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEOUrl" ColumnName="SEOUrl" />
+          <ScalarProperty Name="IsAlive" ColumnName="IsAlive" />
+          <ScalarProperty Name="showinmenu" ColumnName="showinmenu" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

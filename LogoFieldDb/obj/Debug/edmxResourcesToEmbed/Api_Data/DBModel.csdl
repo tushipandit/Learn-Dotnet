@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LogoFieldDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOKeyword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAlive" Type="Boolean" />
+    <Property Name="showinmenu" Type="Boolean" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="ImageId" Type="Int64" />
+    <Property Name="SEOTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Imagestores" Relationship="Self.FK_Imagestore_Category" FromRole="Category" ToRole="Imagestore" />
+    <NavigationProperty Name="Sub_Category" Relationship="Self.FK_Sub_Category_Category" FromRole="Category" ToRole="Sub_Category" />
+  </EntityType>
+  <EntityType Name="Coupon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAlive" Type="Boolean" />
+    <Property Name="showinmenu" Type="Boolean" />
+    <Property Name="SEOKeyword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="SEOTiltle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Couponid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Imagestore">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Isalive" Type="Boolean" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="photourl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int64" />
+    <Property Name="SubcateogoryId" Type="Int64" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="serviceId" Type="Int64" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Imagestore_Category" FromRole="Imagestore" ToRole="Category" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Product_Imagestore" FromRole="Imagestore" ToRole="Product" />
+    <NavigationProperty Name="services" Relationship="Self.FK_services_Imagestore" FromRole="Imagestore" ToRole="services" />
+    <NavigationProperty Name="Sub_Category" Relationship="Self.FK_Sub_Category_Imagestore" FromRole="Imagestore" ToRole="Sub_Category" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOKeyword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAlive" Type="Boolean" />
+    <Property Name="createon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="skucode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="itemcode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="brandname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="features" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="stockstaus" Type="Boolean" />
+    <Property Name="stockquantity" Type="Int64" />
+    <Property Name="minquantity" Type="Int64" />
+    <Property Name="price_mrp" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="price_mrp_display" Type="Boolean" />
+    <Property Name="showonhome" Type="Boolean" />
+    <Property Name="tax_percentage" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ImageId" Type="Int64" />
+    <Property Name="SEOTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="serviceId" Type="Int64" />
+    <Property Name="couponid" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Imagestore" Relationship="Self.FK_Product_Imagestore" FromRole="Product" ToRole="Imagestore" />
+  </EntityType>
+  <EntityType Name="service">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SEOKeyword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsAlive" Type="Boolean" />
+    <Property Name="showinmenu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="SEOTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ImageId" Type="Int64" />
+    <Property Name="SubCatId" Type="Int64" />
+    <NavigationProperty Name="Imagestore" Relationship="Self.FK_services_Imagestore" FromRole="services" ToRole="Imagestore" />
+    <NavigationProperty Name="Sub_Category" Relationship="Self.FK_services_Sub_Category" FromRole="services" ToRole="Sub_Category" />
+  </EntityType>
+  <EntityType Name="Sub_Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOKeyword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAlive" Type="Boolean" />
+    <Property Name="showinmenu" Type="Boolean" />
+    <Property Name="createdon" Type="DateTime" Precision="3" />
+    <Property Name="modifiedon" Type="DateTime" Precision="3" />
+    <Property Name="ImageId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int64" />
+    <Property Name="SEOTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Sub_Category_Category" FromRole="Sub_Category" ToRole="Category" />
+    <NavigationProperty Name="Imagestore" Relationship="Self.FK_Sub_Category_Imagestore" FromRole="Sub_Category" ToRole="Imagestore" />
+    <NavigationProperty Name="services" Relationship="Self.FK_services_Sub_Category" FromRole="Sub_Category" ToRole="services" />
+  </EntityType>
+  <Association Name="FK_Imagestore_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Imagestore">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sub_Category_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sub_Category">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_services_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="services" Type="Self.service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="services">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sub_Category_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sub_Category">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_services_Sub_Category">
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="0..1" />
+    <End Role="services" Type="Self.service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sub_Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="services">
+        <PropertyRef Name="SubCatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LogoFieldDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Coupons" EntityType="Self.Coupon" />
+    <EntitySet Name="Imagestores" EntityType="Self.Imagestore" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="services" EntityType="Self.service" />
+    <EntitySet Name="Sub_Category" EntityType="Self.Sub_Category" />
+    <AssociationSet Name="FK_Imagestore_Category" Association="Self.FK_Imagestore_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Imagestore" EntitySet="Imagestores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sub_Category_Category" Association="Self.FK_Sub_Category_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Imagestore" Association="Self.FK_Product_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestores" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_services_Imagestore" Association="Self.FK_services_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestores" />
+      <End Role="services" EntitySet="services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sub_Category_Imagestore" Association="Self.FK_Sub_Category_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestores" />
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+    </AssociationSet>
+    <AssociationSet Name="FK_services_Sub_Category" Association="Self.FK_services_Sub_Category">
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+      <End Role="services" EntitySet="services" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

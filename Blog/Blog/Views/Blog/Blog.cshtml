@@ -1,0 +1,113 @@
+﻿
+@model IEnumerable<Blog.Models.blogML>
+@{
+    ViewBag.Title = "Blog";
+}
+
+
+
+
+
+<h2>Blog</h2>
+
+
+
+
+<div>
+    <h2>ListBlogs</h2>
+
+    <p>
+        @* @Html.ActionLink("Create New", "Create")*@
+        <a href="@Url.Action("BlogPost","Blog")">Create New </a>
+    </p>
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th nowrap>
+                S. No.
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.seotitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seodiscription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seokeywords)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seourl)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.ImageURL)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.postedby)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isalive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.position)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Content)
+                </th>*@
+            <th>Action</th>
+        </tr>
+        @{int i = 1;}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @i
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.seotitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.seodiscription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.seokeywords)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.seourl)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.ImageURL)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.postedby)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isalive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.position)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </td>*@
+                <td nowrap>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "BlogDataById", "Blog", new { id = item.Id }, null) |
+                    @Html.ActionLink("Delete", "deleteDataById", "Blog", new { id = item.Id } ,null)
+                </td>
+            </tr>
+            i++;
+        }
+
+    </table>
+</div>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MYBlogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="blog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar(max)" />
+    <Property Name="miniintro" Type="nvarchar(max)" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="seotitle" Type="nvarchar(max)" />
+    <Property Name="seodiscription" Type="nvarchar(max)" />
+    <Property Name="seokeywords" Type="nvarchar(max)" />
+    <Property Name="language" Type="nvarchar(max)" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="isalive" Type="bit" />
+    <Property Name="postedby" Type="nvarchar(max)" />
+    <Property Name="photo" Type="nvarchar(max)" />
+    <Property Name="position" Type="bigint" />
+    <Property Name="seourl" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="AutoId" />
+    </Key>
+    <Property Name="AutoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar(max)" />
+    <Property Name="firstname" Type="nvarchar(max)" />
+    <Property Name="lastname" Type="nvarchar(max)" />
+    <Property Name="emailId" Type="nvarchar(max)" />
+    <Property Name="idtype" Type="nvarchar(max)" />
+    <Property Name="idnumber" Type="nvarchar(max)" />
+    <Property Name="phone_no" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar(max)" />
+    <Property Name="isblocked" Type="bit" />
+    <Property Name="website_link" Type="nvarchar(max)" />
+    <Property Name="Location" Type="nvarchar(max)" />
+    <Property Name="industry" Type="nvarchar(max)" />
+    <Property Name="established_year" Type="varchar" MaxLength="50" />
+    <Property Name="GSTN" Type="nvarchar(max)" />
+    <Property Name="total_students" Type="int" />
+    <Property Name="role" Type="int" />
+    <Property Name="type" Type="int" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="url" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="MYBlogModelStoreContainer">
+    <EntitySet Name="blog" EntityType="Self.blog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

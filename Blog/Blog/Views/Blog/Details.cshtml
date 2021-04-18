@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@model Blog.Api_Data.blog
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+
+            @Html.DisplayFor(modelItem => Model.title)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>*@
+        <th>
+            @Html.DisplayFor(modelItem => Model.seotitle)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => Model.seodiscription)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => Model.seokeywords)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => Model.seourl)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>*@
+        <th>
+            @Html.DisplayFor(modelItem => Model.postedby)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => Model.isalive)
+        </th>
+        <th>
+            @Html.DisplayFor(modelItem => Model.position)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>*@
+    </tr>
+
+</table>
+
+@Html.ActionLink("Back", "Blog", "Blog", null, null)
+
+
+

@@ -1,0 +1,81 @@
+﻿<div class="jumbotron">
+    <h1>LOGO FIELD DB WEB API</h1>
+   </div>
+<div class="row">
+    <div>
+
+        <form name="form" method="post" enctype="multipart/form-data">
+            <div>
+                <label>
+                    Brows File
+                </label>
+                <input type="file" #inputFile name="files[]" multiple onchange="URLImage(inputFile.files)" />
+                <div id="imagePreview" style="background-image: url();">
+                </div>
+                <button onclick="UploadImage()">SUBMIT</button>
+            </div>
+        </form>
+
+        <script>
+
+            const url = 'api/Imageupload'
+            const form = document.querySelector('form')
+            var imgData;
+
+            function URLImage(file) {
+                imgData = file.item(0);
+
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                }
+                reader.readAsDataURL(imgData);
+            }
+
+            function UploadImage() {
+                formData.append("k", imgData);
+
+                fetch(url, {
+                    method: 'POST',
+                    body: formData,
+                }).then((response) => {
+                    console.log(response)
+                })
+            }
+
+
+            //form.addEventListener('submit', (e) => {
+            //    e.preventDefault()
+
+            //    const files = document.querySelector('[type=file]').files
+            //    const formData = new FormData()
+
+            //    if (files[0] && files) {
+            //        var reader = new reader();
+            //        reader.onload = function (e){
+                    
+            //            document.getElementById('imagePreview').style.backgroundImage = `Url(e.target.result)`;
+            //        }
+            //        reader.readAsDataUrl(files[0]);
+            //        formData.append("key", files[0]);
+                    
+            //    }
+
+            //        fetch(url, {
+            //            method: 'POST',
+            //            body: formData,
+            //        }).then((response) => {
+            //            console.log(response)
+            //        })
+            //})
+
+
+
+        </script>
+
+
+
+
+
+   </div>
+
+</div>

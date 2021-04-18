@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LogoFieldDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="SEOKeyword" Type="nvarchar(max)" />
+    <Property Name="SEOUrl" Type="nvarchar(max)" />
+    <Property Name="IsAlive" Type="bit" />
+    <Property Name="showinmenu" Type="bit" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="ImageId" Type="bigint" />
+    <Property Name="SEOTitle" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Coupon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="IsAlive" Type="bit" />
+    <Property Name="showinmenu" Type="bit" />
+    <Property Name="SEOKeyword" Type="nvarchar(max)" />
+    <Property Name="SEOUrl" Type="nvarchar" MaxLength="50" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="SEOTiltle" Type="nvarchar" MaxLength="50" />
+    <Property Name="Couponid" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Imagestore">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Isalive" Type="bit" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="photourl" Type="nvarchar(max)" />
+    <Property Name="CategoryId" Type="bigint" />
+    <Property Name="SubcateogoryId" Type="bigint" />
+    <Property Name="ProductId" Type="bigint" />
+    <Property Name="serviceId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="SEOKeyword" Type="nvarchar(max)" />
+    <Property Name="SEOUrl" Type="nvarchar(max)" />
+    <Property Name="IsAlive" Type="bit" />
+    <Property Name="createon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="skucode" Type="nvarchar(max)" />
+    <Property Name="itemcode" Type="nvarchar(max)" />
+    <Property Name="brandname" Type="nvarchar(max)" />
+    <Property Name="features" Type="nvarchar(max)" />
+    <Property Name="stockstaus" Type="bit" />
+    <Property Name="stockquantity" Type="bigint" />
+    <Property Name="minquantity" Type="bigint" />
+    <Property Name="price_mrp" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="price_mrp_display" Type="bit" />
+    <Property Name="showonhome" Type="bit" />
+    <Property Name="tax_percentage" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ImageId" Type="bigint" />
+    <Property Name="SEOTitle" Type="nvarchar(max)" />
+    <Property Name="serviceId" Type="bigint" />
+    <Property Name="couponid" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="SEOKeyword" Type="nvarchar" MaxLength="50" />
+    <Property Name="SEOUrl" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsAlive" Type="bit" />
+    <Property Name="showinmenu" Type="nvarchar" MaxLength="50" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="SEOTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="ImageId" Type="bigint" />
+    <Property Name="SubCatId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Sub_Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="SEOKeyword" Type="nvarchar(max)" />
+    <Property Name="SEOUrl" Type="nvarchar(max)" />
+    <Property Name="IsAlive" Type="bit" />
+    <Property Name="showinmenu" Type="bit" />
+    <Property Name="createdon" Type="datetime" />
+    <Property Name="modifiedon" Type="datetime" />
+    <Property Name="ImageId" Type="bigint" />
+    <Property Name="CategoryId" Type="bigint" />
+    <Property Name="SEOTitle" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Imagestore_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Imagestore">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_services_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="services" Type="Self.services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="services">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_services_Sub_Category">
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="0..1" />
+    <End Role="services" Type="Self.services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sub_Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="services">
+        <PropertyRef Name="SubCatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sub_Category_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sub_Category">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sub_Category_Imagestore">
+    <End Role="Imagestore" Type="Self.Imagestore" Multiplicity="0..1" />
+    <End Role="Sub_Category" Type="Self.Sub_Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Imagestore">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sub_Category">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LogoFieldDbModelStoreContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Coupon" EntityType="Self.Coupon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Imagestore" EntityType="Self.Imagestore" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="services" EntityType="Self.services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sub_Category" EntityType="Self.Sub_Category" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Imagestore_Category" Association="Self.FK_Imagestore_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Imagestore" EntitySet="Imagestore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Imagestore" Association="Self.FK_Product_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestore" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_services_Imagestore" Association="Self.FK_services_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestore" />
+      <End Role="services" EntitySet="services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_services_Sub_Category" Association="Self.FK_services_Sub_Category">
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+      <End Role="services" EntitySet="services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sub_Category_Category" Association="Self.FK_Sub_Category_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sub_Category_Imagestore" Association="Self.FK_Sub_Category_Imagestore">
+      <End Role="Imagestore" EntitySet="Imagestore" />
+      <End Role="Sub_Category" EntitySet="Sub_Category" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

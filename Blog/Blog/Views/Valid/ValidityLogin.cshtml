@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "ValidityLogin";
+}
+
+<h2>Login</h2>
+
+@model Blog.Models.userML
+
+@using (@Html.BeginForm("Login", "Valid", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.username, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Login" class="btn btn-default" />
+        </div>
+    </div>
+
+
+}
+
+<div>
+    @Html.ActionLink("Back to Home", "Index", "Home", null, null)
+</div>
+
+<div>
+    @Html.ActionLink("Signup", "Signupuser", "valid", null, null)
+</div>
+<script>
+    tinymce.init({
+        selector: '#editeditor1',
+        plugins: [
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen textcolor imagetools",
+            "insertdatetime media table contextmenu paste"
+        ],
+        toolbar: "styleselect | bold underline italic | alignleft aligncenter alignright | bullist numlist | forecolor backcolor | link media sh4tinymce | fullscreen code | filemanager",
+        autosave_ask_before_unload: false,
+        max_height: 1000,
+        min_height: 300,
+        height: 400,
+        menubar: false,
+        relative_urls: false,
+        browser_spellcheck: true,
+        paste_data_images: true
+    });</script>
+
+
+
+

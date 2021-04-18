@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MYBlogModelStoreContainer" CdmEntityContainer="MYBlogEntities">
+    <EntitySetMapping Name="blogs">
+      <EntityTypeMapping TypeName="MYBlogModel.blog">
+        <MappingFragment StoreEntitySet="blog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="miniintro" ColumnName="miniintro" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="seotitle" ColumnName="seotitle" />
+          <ScalarProperty Name="seodiscription" ColumnName="seodiscription" />
+          <ScalarProperty Name="seokeywords" ColumnName="seokeywords" />
+          <ScalarProperty Name="language" ColumnName="language" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="isalive" ColumnName="isalive" />
+          <ScalarProperty Name="postedby" ColumnName="postedby" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="seourl" ColumnName="seourl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="MYBlogModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="AutoId" ColumnName="AutoId" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="emailId" ColumnName="emailId" />
+          <ScalarProperty Name="idtype" ColumnName="idtype" />
+          <ScalarProperty Name="idnumber" ColumnName="idnumber" />
+          <ScalarProperty Name="phone_no" ColumnName="phone_no" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="isblocked" ColumnName="isblocked" />
+          <ScalarProperty Name="website_link" ColumnName="website_link" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="established_year" ColumnName="established_year" />
+          <ScalarProperty Name="GSTN" ColumnName="GSTN" />
+          <ScalarProperty Name="total_students" ColumnName="total_students" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="url" ColumnName="url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
