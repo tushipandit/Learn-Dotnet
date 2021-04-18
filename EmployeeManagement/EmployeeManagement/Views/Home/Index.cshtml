@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+    
+}
+
+@model IEnumerable<EmployeeManagement.Models.employee>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to html</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <img src="images/car.jpg" height="450px" width="450px" asp-append-version="true"/>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>Department</th>
+            </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in Model)
+                {
+                    <tr>
+                        <td>@employee.Id</td>
+                        <td>@employee.Name</td>
+                        <td>@employee.Email</td>
+                        </tr>
+                }
+            </tbody>
+            
+        </table>
+    </div>
+</div>
