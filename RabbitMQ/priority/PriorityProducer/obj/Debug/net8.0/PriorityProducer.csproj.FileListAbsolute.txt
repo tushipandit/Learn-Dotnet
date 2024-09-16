@@ -1,0 +1,17 @@
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\PriorityProducer.exe
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\PriorityProducer.deps.json
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\PriorityProducer.runtimeconfig.json
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\PriorityProducer.dll
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\PriorityProducer.pdb
+E:\Learning\RabbitMQ\priority\PriorityProducer\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.csproj.AssemblyReference.cache
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.AssemblyInfoInputs.cache
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.AssemblyInfo.cs
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.csproj.CoreCompileInputs.cache
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\Priority.875B068C.Up2Date
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.dll
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\refint\PriorityProducer.dll
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.pdb
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\PriorityProducer.genruntimeconfig.cache
+E:\Learning\RabbitMQ\priority\PriorityProducer\obj\Debug\net8.0\ref\PriorityProducer.dll

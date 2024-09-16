@@ -1,0 +1,17 @@
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\Worker.exe
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\Worker.deps.json
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\Worker.runtimeconfig.json
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\Worker.dll
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\Worker.pdb
+E:\Learning\RabbitMQ\Worker\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.AssemblyReference.cache
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.AssemblyInfoInputs.cache
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.AssemblyInfo.cs
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.CoreCompileInputs.cache
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.Up2Date
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.dll
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\refint\Worker.dll
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.pdb
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\Worker.genruntimeconfig.cache
+E:\Learning\RabbitMQ\Worker\obj\Debug\net8.0\ref\Worker.dll

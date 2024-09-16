@@ -1,0 +1,8 @@
+ASP.NET Core Identity is a membership system
+>CRUD User Account
+>Account Confirmation
+>Authentication and authorization
+>Password Recovery
+>Two factor authentication with SMS
+>Supprt extra login providers like microsoft, google, 
+and much more

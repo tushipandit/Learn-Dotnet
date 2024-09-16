@@ -1,0 +1,17 @@
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\PriorityConsumer.exe
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\PriorityConsumer.deps.json
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\PriorityConsumer.runtimeconfig.json
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\PriorityConsumer.dll
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\PriorityConsumer.pdb
+E:\Learning\RabbitMQ\priority\PriorityConsumer\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.csproj.AssemblyReference.cache
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.AssemblyInfoInputs.cache
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.AssemblyInfo.cs
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.csproj.CoreCompileInputs.cache
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\Priority.133551F6.Up2Date
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.dll
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\refint\PriorityConsumer.dll
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.pdb
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\PriorityConsumer.genruntimeconfig.cache
+E:\Learning\RabbitMQ\priority\PriorityConsumer\obj\Debug\net8.0\ref\PriorityConsumer.dll

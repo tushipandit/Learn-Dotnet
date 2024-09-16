@@ -1,0 +1,13 @@
+dotnet new webapi -n FormulaOne
+docker build . -t formulaone
+docker run -p 8083:80 -e ASPNETCORE_URLS=http://+:80 formulaone
+
+//Push to docker hub
+docker build . -t tushipandit/formulaone:v1
+docker push tushipandit/formulaone:v1
+
+//kubernetes setup
+kubectl get all
+kubectl apply -f deployment.yaml
+
+

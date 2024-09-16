@@ -1,0 +1,8 @@
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.csproj.AssemblyReference.cache
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.AssemblyInfoInputs.cache
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.AssemblyInfo.cs
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.csproj.CoreCompileInputs.cache
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.MvcApplicationPartsAssemblyInfo.cache
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.RazorAssemblyInfo.cache
+E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\obj\Debug\net5.0\IdentityDemoApp.RazorAssemblyInfo.cs

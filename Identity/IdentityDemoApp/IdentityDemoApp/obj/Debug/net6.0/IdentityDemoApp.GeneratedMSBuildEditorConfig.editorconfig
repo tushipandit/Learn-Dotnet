@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IdentityDemoApp
+build_property.RootNamespace = IdentityDemoApp
+build_property.ProjectDir = E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = E:\Learning\Dotnet\Identity\IdentityDemoApp\IdentityDemoApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/EditUserInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJJblJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/ListRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/ManageUserClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTWFuYWdlVXNlckNsYWltcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Administration/ManageUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTWFuYWdlVXNlclJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Learning/Dotnet/Identity/IdentityDemoApp/IdentityDemoApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2nlifx95k2

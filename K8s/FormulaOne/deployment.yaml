@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: formaulaone-app-deployment
+  annotations:
+    Kubernetes.io/change-cause: "Updating deployment from v1 to v2"
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: formulaone-app
+  template:
+    metadata:
+      name: myformulaone
+      labels:
+        env: prod
+        app: formulaone-app
+        app.kubernetes.io/name: formulaone-app
+    spec:
+      containers:
+        - name: formulaone-app
+          image: tushipandit/formulaone:v2
+          ports:
+            - containerPort: 80
+              name: http-web-api
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100Mi
+            limits:
+              cpu: 200m
+              memory: 200Mi
+          env:
+            - name: ASPNETCORE_URLS
+              value: http://+:80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-lb-service
+spec:
+  selector:
+     app.kubernetes.io/name: formulaone-app
+  ports:
+    - name: formulaone-app-port
+      protocol: TCP
+      port: 8080
+      targetPort: 80
+  type: LoadBalancer
+
+

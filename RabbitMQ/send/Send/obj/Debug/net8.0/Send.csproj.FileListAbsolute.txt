@@ -1,0 +1,17 @@
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\Send.exe
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\Send.deps.json
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\Send.runtimeconfig.json
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\Send.dll
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\Send.pdb
+E:\Learning\RabbitMQ\send\Send\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.csproj.AssemblyReference.cache
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.AssemblyInfoInputs.cache
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.AssemblyInfo.cs
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.csproj.CoreCompileInputs.cache
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.csproj.Up2Date
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.dll
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\refint\Send.dll
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.pdb
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\Send.genruntimeconfig.cache
+E:\Learning\RabbitMQ\send\Send\obj\Debug\net8.0\ref\Send.dll

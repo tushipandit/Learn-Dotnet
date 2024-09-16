@@ -1,0 +1,31 @@
+﻿@model RegisterViewModel
+
+@{
+    ViewBag.Title = "User Registration";
+}
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">UserName</label>
+        <input type="text" asp-for="UserName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your username with anyone else.</div>
+    </div>
+    <div class="display:none; mb-3" >
+        <label asp-for="Email" class="form-label">Email address</label>
+        <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Password</label>
+        <input type="password" asp-for="Password" class="form-control" id="exampleInputPassword1">
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">UserName</label>
+        <input type="text" asp-for="City" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Enter the city.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
