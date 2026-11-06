@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\administration\\manageuserclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\administration\\manageuserclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\administration\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\administration\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\administration\\listrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\administration\\listrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|e:\\learning-git\\learn-dotnet\\identity\\identitydemoapp\\identitydemoapp\\views\\administration\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFD148C3-DCDE-48F4-B653-F90E8F9ED45A}|IdentityDemoApp\\IdentityDemoApp.csproj|solutionrelative:identitydemoapp\\views\\administration\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Models\\LoginViewModel.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T17:07:03.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:11:28.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:08:35.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageUserRoles.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ManageUserRoles.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Administration\\ManageUserRoles.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ManageUserRoles.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Administration\\ManageUserRoles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:08:33.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Account\\Index.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:07:11.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:05:29.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\appsettings.json",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\appsettings.json",
+              "RelativeToolTip": "IdentityDemoApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-07T17:05:14.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAwwGkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:21:36.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:20:44.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:20:33.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ListRole.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ListRole.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Administration\\ListRole.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ListRole.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Administration\\ListRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:20:28.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:17:46.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:17:36.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:17:34.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Administration\\EditUser.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\EditUser.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Administration\\EditUser.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:16:51.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministrationController.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\AdministrationController.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Controllers\\AdministrationController.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Controllers\\AdministrationController.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Controllers\\AdministrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:16:25.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageUserClaims.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ManageUserClaims.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Administration\\ManageUserClaims.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Administration\\ManageUserClaims.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Administration\\ManageUserClaims.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T16:15:30.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:11:49.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:11:41.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:11:30.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IdentityDemoApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:11:13.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityDemoApp\\Program.cs",
+              "ToolTip": "E:\\Learning-GIt\\Learn-Dotnet\\Identity\\IdentityDemoApp\\IdentityDemoApp\\Program.cs",
+              "RelativeToolTip": "IdentityDemoApp\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:05:26.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
